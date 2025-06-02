@@ -44,3 +44,23 @@ CREATE TABLE Locacao (
     FOREIGN KEY (idCarro) REFERENCES Carro(idCarro),
     FOREIGN KEY (idVendedor) REFERENCES Vendedor(idVendedor)
 )
+
+INSERT OR IGNORE INTO Cliente (idCliente, nomeCliente, cidadeCliente, estadoCliente, paisCliente)
+SELECT idCliente, nomeCliente, cidadeCliente, estadoCliente, paisCliente
+FROM tb_locacao
+
+INSERT OR IGNORE INTO Combustivel(idCombustivel, tipoCombustivel)
+SELECT idCombustivel, tipoCombustivel
+FROM tb_locacao
+
+INSERT OR IGNORE INTO Vendedor (idVendedor, nomeVendedor, sexoVendedor, estadoVendedor)
+SELECT idVendedor, nomeVendedor, sexoVendedor, estadoVendedor
+FROM tb_locacao
+
+INSERT OR IGNORE INTO Carro (idCarro, kmCarro, classiCarro, marcaCarro, modeloCarro, anoCarro, idCombustivel)
+SELECT idCarro, kmCarro, classiCarro, marcaCarro, modeloCarro, anoCarro, idCombustivel
+FROM tb_locacao
+
+INSERT INTO Locacao (idLocacao, idCliente, idCarro, idVendedor, dataLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega)
+SELECT idLocacao, idCliente, idCarro, idVendedor, dataLocacao, horaLocacao, qtdDiaria, vlrDiaria, dataEntrega, horaEntrega
+FROM tb_locacao

@@ -19,6 +19,10 @@ Para isso foi seguido as seguintes etapas:
 ![CriacaoTabelas](../Evidencias/2-Criação_Tabelas.png)
 
 - Aplicar a Terceira Forma Normal (3FN), porém as tabelas ja estão nesse formato
+- Inserir os dados em suas respectivas tabelas
+
+![InserirDados](../Evidencias/2.1-Dados.png)
+
 - Construir a visualizacao do modelo Relacional
 
 ![ModeloRelacional](../Evidencias/3-Modelo-Relacional.png)
