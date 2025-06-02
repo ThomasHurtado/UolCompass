@@ -21,4 +21,26 @@ Para isso foi seguido as seguintes etapas:
 - Aplicar a Terceira Forma Normal (3FN), porém as tabelas ja estão nesse formato
 - Construir a visualizacao do modelo Relacional
 
-[ModeloRelacional](../Evidencias/3-Modelo-Relacional.png)
+![ModeloRelacional](../Evidencias/3-Modelo-Relacional.png)
+
+
+## Etapa 2
+
+O objetivo desta etapa´é contruir o modelo dimensional baseado no modelo ralacional.
+Para isso foi seguido as seguintes etapas:
+
+- Identificar a tabela fato, o centro do modelo dimensional, sendo ela a tabela locação
+- Identificar as dimensões, tabelas que descrevem o fato, sendo elas Carro, Combustivel, Cliente e Vendededor
+- Criação das telas "Views"
+
+![CriacaoView](../Evidencias/4-Criacao_View.png)
+
+- Contruir a visualização do modelo dimensional
+- Dififinir o modelo dimensional, neste caso o snowflake, pois combustivel se relaciona com a tabela carro
+
+![ModeloDimensional](../Evidencias/5-Modelo-Dimensional-SnowFlake.png)
+
+
+## Finalização
+
+Por fim, os objetivos foram alcançados, a tabela inicial foi transformada em modelos relacional e dimensional conforme o desafio estava pedindo.
