@@ -3,7 +3,7 @@
 O desafio da Sprint consiste em processar e gerar gráficos a partir de um dataset fornecido.
 A realização do desafio esta separado em 8 exercicios
 
-# Importando bibliotecas
+## Importando bibliotecas
 
 Para iniciar o desafio, o primeiro passo é importar as bibliotecas Pandas e Matplotlib.
 Após isso, é necessario declarar o dataset
