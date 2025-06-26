@@ -1,0 +1,14 @@
+Resposta Exercicio 1:
+
+     O artista que mais apareceu teve 4.0 aparições.
+     O maior valor bruto arrecadado por um artista foi de $1526075146.0
+
+Resposta Exercicio 2:
+
+     A turne com o maior faturamento dentro de um ano foi a The MDNA Tour com $10353571.0
+
+Resposta Exercicio 3:
+
+ - Taylor Swift em The Eras Tour † com o valor de $13928571.43
+ - Beyoncé em Renaissance World Tour com o valor de $10353571.43
+ - Taylor Swift em Reputation Stadium Tour com o valor de $7600846.21

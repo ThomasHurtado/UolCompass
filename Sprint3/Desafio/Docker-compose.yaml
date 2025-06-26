@@ -1,0 +1,16 @@
+services:
+  etapa1:
+    build: ./Etapa1
+    volumes:
+      - ./volume:/dados
+    container_name: etl-limpo
+    restart: no
+
+  etapa2:
+    build: ./Etapa2
+    volumes:
+      - ./volume:/dados
+    container_name: job-limpo
+    restart: no
+    depends_on:
+      - etapa1 
