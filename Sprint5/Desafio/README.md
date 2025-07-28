@@ -28,13 +28,16 @@ produtoras, categorias, entre outras.
 Para a realização da Etapa 1 foi utilizado os seguintes métodos:
 
 - Importar as bibliotecas necessárias (boto3, ClientError e logging)
+
 ![e1import](../Evidencias/e1-import.png)
 
 - Realizar um input para o usuario digitar as credenciais da AWS
+
 ![e1input](../Evidencias/e1-input.png)
 
 - Declarar o s3 utilizando o boto3
     - Utilizar a função .client, junto das credenciais para se conectar a AWS
+    
 ![e1client](../Evidencias/e1-client.png)
 
 
